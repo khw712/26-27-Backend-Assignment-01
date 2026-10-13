@@ -12,13 +12,13 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class TImetableService {
+public class TimetableService {
 
     private final TimetableRepository timetableRepository;
 
     public TimetableResponse create(TimetableRequest request) {
         Timetable timetable = new Timetable(
-                0L,
+                null,
                 request.getDay(),
                 request.getName()
         );

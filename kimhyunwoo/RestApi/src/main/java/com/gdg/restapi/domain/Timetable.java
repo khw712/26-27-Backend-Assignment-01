@@ -5,7 +5,6 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-
 public class Timetable {
     private long id;
     private String day;
@@ -18,6 +17,5 @@ public class Timetable {
         if (name != null) {
             this.name = name;
         }
-
     }
 }

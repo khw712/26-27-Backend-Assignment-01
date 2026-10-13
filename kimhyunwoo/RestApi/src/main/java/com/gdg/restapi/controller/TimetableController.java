@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/timetable")
+@RequestMapping("/timetables")
 public class TimetableController {
 
     private final TImetableService timetableService;
