@@ -2,7 +2,7 @@ package com.gdg.restapi.controller;
 
 import com.gdg.restapi.dto.TimetableRequest;
 import com.gdg.restapi.dto.TimetableResponse;
-import com.gdg.restapi.service.TImetableService;
+import com.gdg.restapi.service.TimetableService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
