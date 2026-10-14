@@ -9,7 +9,7 @@ import java.util.*;
 public class TimetableRepository {
 
     private final Map<Long, Timetable> timetables = new HashMap<>();
-    private long sequence = 0L;
+    private Long sequence = 0L;
 
     public TimetableRepository() {
         save(new Timetable(null, "월요일", "수업 없음"));

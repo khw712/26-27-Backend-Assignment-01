@@ -15,7 +15,7 @@ import java.util.List;
 @RequestMapping("/timetables")
 public class TimetableController {
 
-    private final TImetableService timetableService;
+    private final TimetableService timetableService;
 
     @PostMapping
     public ResponseEntity<TimetableResponse> create(@RequestBody TimetableRequest request) {

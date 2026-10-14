@@ -6,7 +6,7 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public class Timetable {
-    private long id;
+    private Long id;
     private String day;
     private String name;
 
