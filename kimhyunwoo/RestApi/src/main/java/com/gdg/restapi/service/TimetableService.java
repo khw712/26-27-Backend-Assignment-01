@@ -2,7 +2,6 @@ package com.gdg.restapi.service;
 
 import com.gdg.restapi.domain.Timetable;
 import com.gdg.restapi.dto.TimetableRequest;
-import com.gdg.restapi.dto.TimetableRequest;
 import com.gdg.restapi.dto.TimetableResponse;
 import com.gdg.restapi.repository.TimetableRepository;
 import lombok.RequiredArgsConstructor;
